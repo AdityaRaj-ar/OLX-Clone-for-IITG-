@@ -22,7 +22,7 @@ const HomePage = () => {
                 className="btn"
                 onClick={() => navigate("/category/rent")}
               >
-                TO RENT
+                TO SALE
               </button>
             </div>
           </div>
@@ -33,7 +33,7 @@ const HomePage = () => {
                 className="btn"
                 onClick={() => navigate("/category/sale")}
               >
-                TO SALE
+                TO RENT
               </button>
             </div>
           </div>
