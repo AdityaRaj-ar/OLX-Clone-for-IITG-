@@ -51,7 +51,7 @@ const Signin = () => {
           <h4 className="bg-dark p-2 mt-2 text-light text-center">Sign In</h4>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
-              Email address
+              Enter College Outlook Id
             </label>
             <input
               type="email"
@@ -91,7 +91,7 @@ const Signin = () => {
           <button type="submit" className="btn btn-primary">
             Sign In
           </button>
-          <OAuth />
+//           <OAuth />
           <div className="mt-2">
             <span>New User</span> <Link to="/signup">Sign up</Link>
           </div>
