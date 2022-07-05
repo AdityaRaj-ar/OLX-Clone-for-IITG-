@@ -163,7 +163,7 @@ const Profile = () => {
       </div>
       <div className="container mt-4 w-50 d-flex justify-content-between">
         <Link to="/create-listing">
-          <FaArrowAltCircleRight color="primary" /> Sell or Rent Your Home
+          <FaArrowAltCircleRight color="primary" /> Sell or Rent Your Item
         </Link>
       </div>
       <div className="container">
