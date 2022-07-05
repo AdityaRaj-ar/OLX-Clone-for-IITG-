@@ -10,7 +10,7 @@ import {
 } from "firebase/firestore";
 import { db } from "../firebase.config";
 import { toast } from "react-toastify";
-import { FcGoogle } from "react-icons/fc";
+import { SiMicrosoftoutlook } from "react-icons/si";
 import { async } from "@firebase/util";
 
 const OAuth = () => {
@@ -42,7 +42,7 @@ const OAuth = () => {
       <h6 className="mt-2">
         Sign {location.pathname === "/signup" ? "Up " : "In "}With &nbsp;
         <button onClick={onGoogleAuthHandler}>
-          <FcGoogle />
+          <SiMicrosoftoutlook />
         </button>
       </h6>
     </div>
