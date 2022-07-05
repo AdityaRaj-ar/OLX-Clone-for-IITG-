@@ -91,7 +91,7 @@ const Signin = () => {
           <button type="submit" className="btn btn-primary">
             Sign In
           </button>
-//           <OAuth />
+          {/* <OAuth /> */}
           <div className="mt-2">
             <span>New User</span> <Link to="/signup">Sign up</Link>
           </div>
