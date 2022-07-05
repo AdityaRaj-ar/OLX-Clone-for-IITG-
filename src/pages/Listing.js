@@ -110,7 +110,7 @@ const Listing = () => {
               className="btn btn-success"
               to={`/contact/${listing.useRef}?listingName=${listing.name}`}
             >
-              Contact Landlord
+              Contact Owner
             </Link>
           </div>
         </div>
