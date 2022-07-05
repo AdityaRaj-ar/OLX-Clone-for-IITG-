@@ -73,7 +73,7 @@ const Signup = () => {
           </div>
           <div className="mb-3">
             <label htmlFor="exampleInputEmail1" className="form-label">
-              Email address
+              Enter College Outlook Id
             </label>
             <input
               type="email"
@@ -110,7 +110,7 @@ const Signup = () => {
             Sign Up
           </button>
           <div>
-            <OAuth />
+//             <OAuth />
             <span>Already User</span> <Link to="/signin">Login</Link>
           </div>
         </form>
