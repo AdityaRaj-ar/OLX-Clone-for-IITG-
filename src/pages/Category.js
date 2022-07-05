@@ -93,8 +93,8 @@ const Category = () => {
       <div className="mt-3 container-fluid">
         <h1>
           {params.categoryName === "rent"
-            ? "Items For Rent"
-            : "Items For Sale"}
+            ? "Items For Sale"
+            : "Items For Rent"}
         </h1>
         {loading ? (
           <Spinner />
